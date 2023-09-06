@@ -196,25 +196,13 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                                                 height: 10,
                                               ),
                                               document['sender_name'] != ""
-                                                  ? document['senderUsername'] ==
-                                                          document[
-                                                              'sender_name']
-                                                      ? Text(
-                                                          "You: ${document['last_message']}",
-                                                          style: const TextStyle(
-                                                              fontFamily:
-                                                                  'Pt Sans',
-                                                              color: CupertinoColors
-                                                                  .systemGrey),
-                                                        )
-                                                      : Text(
-                                                          "Them: ${document['last_message']}",
-                                                          style: const TextStyle(
-                                                              fontFamily:
-                                                                  'Pt Sans',
-                                                              color: CupertinoColors
-                                                                  .systemGrey),
-                                                        )
+                                                  ? Text(
+                                                "${document['last_message']}",
+                                                style: const TextStyle(
+                                                    fontFamily: 'Pt Sans',
+                                                    color: CupertinoColors
+                                                        .systemGrey),
+                                              )
                                                   : const Text("........")
                                             ],
                                           ),
@@ -292,25 +280,13 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                                                         FontWeight.bold),
                                               ),
                                               document['sender_name'] != ""
-                                                  ? document['senderUsername'] ==
-                                                          document[
-                                                              'sender_name']
-                                                      ? Text(
-                                                          "You: ${document['last_message']}",
-                                                          style: const TextStyle(
-                                                              fontFamily:
-                                                                  'Pt Sans',
-                                                              color: CupertinoColors
-                                                                  .systemGrey),
-                                                        )
-                                                      : Text(
-                                                          "Them: ${document['last_message']}",
-                                                          style: const TextStyle(
-                                                              fontFamily:
-                                                                  'Pt Sans',
-                                                              color: CupertinoColors
-                                                                  .systemGrey),
-                                                        )
+                                                  ? Text(
+                                                      "${document['last_message']}",
+                                                      style: const TextStyle(
+                                                          fontFamily: 'Pt Sans',
+                                                          color: CupertinoColors
+                                                              .systemGrey),
+                                                    )
                                                   : const Text("........")
                                             ],
                                           ),
