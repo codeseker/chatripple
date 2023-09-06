@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "220358718342",
+    "project_id": "chatripple-40fe3",
+    "storage_bucket": "chatripple-40fe3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220358718342:android:f9950ec38dfdd5e74a3207",
+        "android_client_info": {
+          "package_name": "com.chatripple.chatripple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220358718342-a3e3dbsdkrtngbbmt87llvkqnnktt5af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz2San0XR2VuzwzYilYUwLbsZisnMykxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220358718342-a3e3dbsdkrtngbbmt87llvkqnnktt5af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
